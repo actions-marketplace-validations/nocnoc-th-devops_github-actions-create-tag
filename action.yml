@@ -1,4 +1,4 @@
-name: 'nocnoc - create tag'
+name: 'ntd - create tag'
 description: 'NocNoc for creating tag'
 inputs:
   token:
