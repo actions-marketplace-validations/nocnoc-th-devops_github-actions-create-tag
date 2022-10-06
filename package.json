@@ -1,0 +1,26 @@
+{
+  "name": "github-actions-create-tag",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js --license licenses.txt",
+    "tag": "chmod +x ./.tagger.sh && ./.tagger.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nocnoc-thailand/github-actions-create-tag.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache License",
+  "bugs": {
+    "url": "https://github.com/nocnoc-thailand/github-actions-create-tag/issues"
+  },
+  "homepage": "https://github.com/nocnoc-thailand/github-actions-create-tag#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1"
+  }
+}

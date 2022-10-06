@@ -1,0 +1,13 @@
+name: 'nocnoc - create tag'
+description: 'NocNoc for creating tag'
+inputs:
+  token:
+    description: GitHub token
+    required: true
+  name: 
+    description: tag name
+    required: true
+    default: 0.0.0
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
