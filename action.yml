@@ -1,5 +1,5 @@
 name: 'ntd - create tag'
-description: 'NocNoc for creating tag'
+description: 'ntd - create tag'
 inputs:
   token:
     description: GitHub token
